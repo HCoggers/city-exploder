@@ -19,6 +19,11 @@ app.get('/location', (request, response) => {
   response.send(locationData);
 });
 
+app.get('/weather', (request,response) => {
+  const weatherData = getWeather();
+  response.send(weatherData);
+})
+
 // Turn the server on
 app.listen(PORT, () => console.log(`App is up on ${PORT}`));
 
@@ -37,6 +42,15 @@ function searchToLatLong(query) {
   return location;
 }
 
+function getWeather() {
+  const darkSkyData = require ('./data/darksky.json');
+  const weatherSummaries = [];
+  darkSkyData.daily.data.forEach( day => {
+    weatherSummaries.push(new Weather(day));
+  })
+  return weatherSummaries;
+}
+
 function Location(query, res) {
   console.log('res in Location', res);
   this.search_query = query;
@@ -45,9 +59,10 @@ function Location(query, res) {
   this.longitude = res.results[0].geometry.location.lng;
 }
 
-
-
-
+function Weather(day) {
+  this.forecast = day.summary;
+  this.time = new Date(day.time * 1000).toString().slice(0, 15)
+}
 
 // Add a catch-all to get routes that don't exist
 app.use('*', (request, response) => response.send('Sorry, that route does not exist'));

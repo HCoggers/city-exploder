@@ -37,6 +37,18 @@ Finish time: 11:53a
 
 Actual time needed to complete: 1 hr 36 mins
 
+## 3. Weather
+
+Pair-Programming: Harrison Navigated, Jon Drove
+
+Estimate of time needed to complete: 45 min
+
+Start time: 12:20pm
+
+Finish time: 12:44pm
+
+Actual time needed to complete: 24 mins
+
 ## Change Log
 
 02-19-2019 10:00am - Application file structure is complete, and ready for API and server functionality
