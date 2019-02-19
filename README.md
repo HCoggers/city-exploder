@@ -57,5 +57,7 @@ Actual time needed to complete: 24 mins
 
 ## Credits and Collaborations
 @HCoggers
+
 @Jong9000
-Powered by Google, and DarkSky
+
+Powered by Google, DarkSky
