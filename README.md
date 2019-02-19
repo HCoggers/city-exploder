@@ -15,13 +15,15 @@
 ## Feature Estimates
 Number and name of feature: #1 Repo Set-Up
 
+Pair-Programming: Jon Navigated, Harrison Drove
+
 Estimate of time needed to complete: 30 mins
 
 Start time: 9:15a
 
-Finish time: 
+Finish time: 9:52a
 
-Actual time needed to complete: 
+Actual time needed to complete: 37 mins
 
 ## Change Log
 <!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
