@@ -1,0 +1,19 @@
+{
+  "name": "city-exploder",
+  "version": "1.0.0",
+  "description": "lab-06",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HCoggers/city-exploder.git"
+  },
+  "author": "Harrison Cogswell and Jon Gentry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HCoggers/city-exploder/issues"
+  },
+  "homepage": "https://github.com/HCoggers/city-exploder#readme"
+}
