@@ -13,7 +13,7 @@
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
 
 ## Feature Estimates
-Number and name of feature: #1 Repo Set-Up
+### 1: Repo Set-Up
 
 Pair-Programming: Jon Navigated, Harrison Drove
 
@@ -25,7 +25,22 @@ Finish time: 9:52a
 
 Actual time needed to complete: 37 mins
 
+### 2: Locations get
+
+Pair-Programming: Jon Navigated, Harrison Drove
+
+Estimate of time needed to complete: 1.5+ hr
+
+Start time: 10:17a
+
+Finish time: 
+
+Actual time needed to complete: 
+
 ## Change Log
+
+02-19-2019 10:00am - Application file structure is complete, and ready for API and server functionality
+
 <!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
 
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource.
