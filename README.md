@@ -37,7 +37,7 @@ Finish time: 11:53a
 
 Actual time needed to complete: 1 hr 36 mins
 
-## 3. Weather
+### 3: Weather
 
 Pair-Programming: Harrison Navigated, Jon Drove
 
@@ -51,12 +51,11 @@ Actual time needed to complete: 24 mins
 
 ## Change Log
 
-02-19-2019 10:00am - Application file structure is complete, and ready for API and server functionality
+02-19-2019 10:00am - Application file structure is complete, and ready for API and server functionality.
 
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
-
-01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource.
+02-19-2019 12:49am - Added Weather and Location data from files, still needs to be updated with APIs.
 
 ## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
--->
+@HCoggers
+@Jong9000
+Powered by Google, and DarkSky
